@@ -29,6 +29,19 @@ for line in (BASE / "arcticons_appfilter.xml").read_text().splitlines():
     if m:
         cov[m.group(2)].append(m.group(1))
 
+# ---- component-level overrides: break high-profile apps out of shared ----
+# coverage drawables into their own slug (arcticons lumps them into generic
+# buckets like "ai"; they deserve their real brand glyph).
+COMPONENT_SLUG = {
+    "ai.x.grok/ai.x.grok.main.GrokActivity": "grok",
+}
+for comp, new_slug in COMPONENT_SLUG.items():
+    for old_slug, comps in cov.items():
+        if comp in comps:
+            comps.remove(comp)
+            cov[new_slug].append(comp)
+            break
+
 print(f"arcticons: {len(cov)} unique app slugs, {sum(len(v) for v in cov.values())} components")
 
 # ---- glyph indexes ----
@@ -435,6 +448,7 @@ MANUAL = {
     "chatgpt": ("simple", "openai"),
     "openai": ("simple", "openai"),
     "openai_chatgpt": ("simple", "openai"),
+    "grok": ("simple", "grok"),
     "gemini": ("simple", "googlegemini"),
     "googlegemini": ("simple", "googlegemini"),
     "bard": ("simple", "googlegemini"),

@@ -3715,7 +3715,6 @@
    "ai.felo.search/ai.felo.search.MainActivity",
    "com.photogo.ai/com.photogo.ai.MainActivity",
    "chat.bot.ai_assistant.ask.ai.tutor.talk.text.math.helper.chat_on.translate/ai.echo.MainActivity",
-   "ai.x.grok/ai.x.grok.main.GrokActivity",
    "com.healingpal.ai/com.glority.android.picturexx.splash.SplashActivity",
    "com.simka.ai.children.bed.stories.android/com.simka.ai.children.bed.stories.android.MainActivity",
    "ai.meiying.throne/ai.meiying.throne.MainActivity",
@@ -57146,6 +57145,15 @@
   ],
   "match": "letter",
   "slug": "grofers"
+ },
+ "ic_grok": {
+  "glyph_src": "simple",
+  "glyph_name": "grok",
+  "components": [
+   "ai.x.grok/ai.x.grok.main.GrokActivity"
+  ],
+  "match": "manual",
+  "slug": "grok"
  },
  "ic_grokio": {
   "glyph_src": "letter",
