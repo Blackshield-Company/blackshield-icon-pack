@@ -99184,8 +99184,8 @@
   "slug": "open_video_editor"
  },
  "ic_openai_chatgpt": {
-  "glyph_src": "material",
-  "glyph_name": "chat",
+  "glyph_src": "simple",
+  "glyph_name": "openai",
   "components": [
    "com.openai.chatgpt/com.google.android.archive.ReactivateActivity",
    "com.openai.chatgpt/com.openai.chatgpt.MainActivity",
@@ -99196,7 +99196,7 @@
    "org.chromium.webapk.aa94396f06e52a880_v2/org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity",
    "chat.gpt64/chat.gpt64.preinicio"
   ],
-  "match": "keyword",
+  "match": "manual",
   "slug": "openai_chatgpt"
  },
  "ic_openai_sora": {

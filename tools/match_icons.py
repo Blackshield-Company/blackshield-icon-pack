@@ -434,6 +434,7 @@ MANUAL = {
     "ai": ("material", "smart_toy"),
     "chatgpt": ("simple", "openai"),
     "openai": ("simple", "openai"),
+    "openai_chatgpt": ("simple", "openai"),
     "gemini": ("simple", "googlegemini"),
     "googlegemini": ("simple", "googlegemini"),
     "bard": ("simple", "googlegemini"),

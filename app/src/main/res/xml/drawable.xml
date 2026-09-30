@@ -262,14 +262,14 @@
     <item drawable="ic_deutsche_bank" />
     <item drawable="ic_dev_aiopenclawapp" />
     <item drawable="ic_dev_appopenbible" />
+    <item drawable="ic_dev_comblackclawblackshieldicons" />
+    <item drawable="ic_dev_comblackclawblackshieldiconsred" />
     <item drawable="ic_dev_comexamplehermeswingman" />
     <item drawable="ic_dev_commoonshotkimiclaw" />
     <item drawable="ic_dev_comnikhilyt" />
     <item drawable="ic_dev_comopenamp" />
     <item drawable="ic_dev_comopenshieldarmory" />
     <item drawable="ic_dev_comsynthalorianscsynthesis" />
-    <item drawable="ic_dev_comblackclawblackshieldicons" />
-    <item drawable="ic_dev_comblackclawblackshieldiconsred" />
     <item drawable="ic_dev_comsynthsharkflamingo" />
     <item drawable="ic_dev_comsynthvhscam" />
     <item drawable="ic_dev_comsynthvoidshmup" />
@@ -774,6 +774,7 @@
     <item drawable="ic_olx" />
     <item drawable="ic_onlyoffice_documents" />
     <item drawable="ic_opel" />
+    <item drawable="ic_openai_chatgpt" />
     <item drawable="ic_openhab" />
     <item drawable="ic_openvpn" />
     <item drawable="ic_openwrt_manager" />
