@@ -1,3 +1,5 @@
+![blackshield-icon-pack](.github/preview.png)
+
 # Blackshield Icons
 
 Steel + blood icon pack for Android launchers (Nova, Lawnchair, Apex, ADW, Smart, Niagara-via-compat).
