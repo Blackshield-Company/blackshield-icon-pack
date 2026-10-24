@@ -29,4 +29,4 @@ If this ever changes, this document changes first, in this repository's
 public git history.
 
 Contact: open an issue at
-https://github.com/synthalorian/blackshield-icon-pack/issues
+https://github.com/Blackshield-Company/blackshield-icon-pack/issues

@@ -49,7 +49,7 @@ icon pack, dark icons, minimal icons, adaptive icons, monochrome
 ## Data safety (Play Console form)
 - Collects or shares NO data — check "No data collected" across the board.
 - Privacy policy URL:
-  https://github.com/synthalorian/blackshield-icon-pack/blob/main/PRIVACY.md
+  https://github.com/Blackshield-Company/blackshield-icon-pack/blob/main/PRIVACY.md
 
 ## Store assets (generated, in repo under store-assets/)
 - icon-512.png (hi-res icon)
